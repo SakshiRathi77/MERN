@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basics of html</title>
+    <link rel="stylesheets" href="basic.css">
+    <style>
+        p{
+            columns: 3;
+            color: blue;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>h1 to h6 can be used for heading tag</p> -->
+    <h1>
+        this is h1 heading
+    </h1>
+    <!-- <p>li for unordered list and ol for ordered list</p> -->
+<li>collection of ordered list</li>
+<ol type="1">
+    <li>html</li>
+    <li>css</li>
+</ol>
+<ol type="A">
+    <li>bootstrap</li>
+</ol>
+<!-- <p> anchor tag is used for adding link </p> -->
+<a href="https://web.whatsapp.com/">whatsapp</a>
+<br>
+<a href="https://www.facebook.com/">facebook</a>
+<br>
+<!-- <p> image src is used to display image ...if it is in folder directly put the name else u can copy the path</p> -->
+<img src="download.jpg">
+<img src="download3.jpg" alt="imagecannot be preview">
+<!-- <p>table row by tr table heading by th and table data by td</p> -->
+<table>
+    <tr>
+        <th>sr no.</th>
+        <th >name</th>
+    
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>whatsapp</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>facebook</td>
+    </tr>
+</table>
+<!-- <p>creating a form by form tag ,creating any attribute keep id as unique for every element,placeholder display name...label distinguish diffrent radio button </p> -->
+<form> 
+
+    <p>PLEASE ENTER YOUR DATA TO SIGN IN</p>
+    <br>
+    <span style="border: antiquewhite; background-color: bisque;">what is your good name</span>
+    <input type="text" name ="sakshi" placeholder="NAME" id="1.text">
+    <br>
+    <p>select your favourite color</p>
+    <input type="color">
+    <br>
+    <p>dob</p>
+    <input type='date'>
+    <br>
+    <p>enter your emailid</p>
+    <input type="email" placeholder="cwh@gmail.com">
+    <br>
+    <p>which app you want to use</p><br>
+    <input type="radio" name=radii id="radio1">
+    <label for="radio1">watsapp</label>
+    <br>
+    <input type="radio" name=radii id="radio2">
+    <label for="radio2">facebook</label>
+    <p>from these which apps are installed in your device</p>
+    <input type="checkbox" name=apps id ="app1">
+    <label for="app1">watssap</label>
+    <br>
+    <input type="checkbox" name=apps id ="app2">
+    <label for="app2">facebook</label>
+    <br>
+    <input type="checkbox" name=apps id ="app3">
+    <label for="app3">snapchat</label>
+    <br>
+    <input type="checkbox" name=apps id ="app4">
+    <label for="app1">linkedin</label>
+
+</form>
+</body>
+</html>
